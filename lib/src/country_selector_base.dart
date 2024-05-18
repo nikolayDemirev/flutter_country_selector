@@ -77,7 +77,7 @@ abstract class CountrySelectorBase extends StatefulWidget {
 
 abstract class CountrySelectorBaseState<W extends CountrySelectorBase>
     extends State<W> {
-  late final CountrySelectorController controller;
+  late CountrySelectorController controller;
   String searchText = '';
 
   @override
